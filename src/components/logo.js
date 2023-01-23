@@ -1,5 +1,6 @@
 import React from 'react';
 import useSiteSettings from '../hooks/useSiteSettings';
+import { GlobalStyles } from '@contentful/f36-components';
 
 export default function Logo() {
   const { logo } = useSiteSettings();
